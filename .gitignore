@@ -1,0 +1,5 @@
+# Input files, AOC asks you not to share them
+input*.txt
+
+# Visual studio code workspace stuff
+.vscode
