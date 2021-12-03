@@ -51,6 +51,6 @@ def part2(data):
 
     
 if __name__ == "__main__":
-    print("--- AOC Day 02 ---")
+    print("--- AOC Day 03 ---")
     print("Part 1:", part1(data))
     print("Part 2:", part2(data))
