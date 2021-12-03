@@ -3,7 +3,7 @@ data = [x.rstrip() for x in open("input03.txt").readlines()]
 
 
 def part1(data):
-    digits = [list(map(int, list(x))) for x in data]
+    digits = [list(map(int, x)) for x in data]
     counts = list(map(sum, zip(*digits)))
             
     gamma_rate = ""
@@ -23,7 +23,7 @@ def part1(data):
 
 
 def part2(data):
-    digits = [list(map(int, list(x))) for x in data]
+    digits = [list(map(int, x)) for x in data]
 
     oxygen = digits
     c02 = digits
