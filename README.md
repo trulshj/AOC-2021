@@ -2,4 +2,6 @@
 
 Advent of Code 2021
 
-First year I believe I can complete all days!
+First year I feel confident in completing all days!
+
+I'm primarily solving in Python, but I will hopefully sprinkle in some other languages here and there
