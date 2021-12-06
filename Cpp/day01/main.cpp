@@ -16,7 +16,7 @@ vector<int> read_data() {
   return data;
 }
 
-int part1(vector<int> data) {
+int part1(vector<int> const &data) {
   int increasing = 0;
 
   for (size_t i = 1; i < data.size(); ++i) {
@@ -27,7 +27,7 @@ int part1(vector<int> data) {
   return increasing;
 }
 
-int part2(vector<int> data) {
+int part2(vector<int> const &data) {
   int increasing = 0;
 
   int a, b;
